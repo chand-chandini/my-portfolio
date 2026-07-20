@@ -118,6 +118,7 @@
             display: flex;
             gap: 32px;
             list-style: none;
+            align-items: center;
         }
 
         .nav-links a {
@@ -282,12 +283,43 @@
             color: var(--text-muted);
         }
 
+        /* Hero social links - ABOVE the code card */
+        .hero-social-above {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+            justify-content: flex-start;
+        }
+        .hero-social-above a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 22px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+        .hero-social-above a:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(108, 99, 255, 0.3);
+        }
+        .hero-social-above a .icon {
+            font-size: 1.2rem;
+        }
+
         /* Hero right - avatar / code illustration */
         .hero-visual {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             position: relative;
+            width: 100%;
         }
 
         .code-card {
@@ -660,6 +692,9 @@
             .hero-stats {
                 justify-content: center;
             }
+            .hero-social-above {
+                justify-content: center;
+            }
             .hero h1 {
                 font-size: 2.8rem;
             }
@@ -703,6 +738,11 @@
             .code-card pre {
                 font-size: 0.7rem;
             }
+            .hero-social-above {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
         }
 
         @media (max-width: 480px) {
@@ -716,6 +756,10 @@
             .btn {
                 padding: 12px 24px;
                 font-size: 0.85rem;
+            }
+            .hero-social-above a {
+                padding: 8px 16px;
+                font-size: 0.8rem;
             }
         }
     </style>
@@ -777,7 +821,21 @@
                 </div>
             </div>
 
+            <!-- ===== RIGHT SIDE: Social Links ABOVE Code Card ===== -->
             <div class="hero-visual">
+                <!-- GitHub & LinkedIn Links - Above the code card -->
+                <div class="hero-social-above">
+                    <a href="https://github.com/chand-chandini" target="_blank">
+                        <span class="icon">🐙</span>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/chandini-pentapati-1911002a9/" target="_blank">
+                        <span class="icon">🔗</span>
+                        LinkedIn
+                    </a>
+                </div>
+
+                <!-- Code Card -->
                 <div class="code-card">
                     <div class="dot-group">
                         <span></span><span></span><span></span>
