@@ -2,7 +2,6 @@
 
 > Full-stack developer portfolio showcasing projects built with React, Django, Python, and AI.
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/6C63FF/FFFFFF?text=Chandini+Portfolio)
 
 ---
 
