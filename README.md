@@ -10,7 +10,7 @@
 
 This is my personal portfolio website where I showcase my skills, projects, and experience as a **Full-Stack Developer**. It reflects my passion for building beautiful, functional web applications and my journey in software development.
 
-**🔗 Live Demo:** [View Portfolio](https://your-portfolio-url.netlify.app) *(Replace with your actual link after deployment)*
+**🔗 Live Demo:** [View Portfolio](https://my-portfolio-29id.vercel.app/)
 
 ---
 
@@ -23,7 +23,7 @@ This is my personal portfolio website where I showcase my skills, projects, and 
 | **Database** | PostgreSQL, MySQL, SQLite |
 | **Tools** | Git, GitHub, VS Code, Postman |
 | **AI/ML** | Generative AI (ChatGPT, Claude), Prompt Engineering |
-| **Deployment** | Netlify, Vercel, GitHub Pages |
+| **Deployment** | Vercel, Netlify, GitHub Pages |
 
 ---
 
